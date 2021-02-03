@@ -18,7 +18,15 @@ const fileName = name.replace('@skuad/', '');
 // see below for details on the options
 const inputOptions = {
   input: inputPath,
-  external: ['react'],
+  external: [
+    'react',
+    'react-dom',
+    // 'visibilityjs',
+    'prop-types',
+    '@material-ui',
+    'react-is',
+    'hoist-non-react-statics',
+  ],
   plugins: [
     resolve(),
     typescript({

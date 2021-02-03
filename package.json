@@ -13,11 +13,6 @@
     "prettier": "prettier --check '**/*.{scss,js,ts}'",
     "prettier:write": "prettier --write '**/*.{scss,js,ts}'"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "keywords": [
     "Skuad",
     "Design system"
