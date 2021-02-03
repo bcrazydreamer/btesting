@@ -2,8 +2,8 @@
   "name": "@btesting/core",
   "version": "0.0.1-alpha.0",
   "description": "btesting core",
-  "main": "build/index.cjs.js",
-  "module": "build/index.esm.js",
+  "main": "dist/core.cjs.js",
+  "module": "dist/core.esm.js",
   "src": "src/index.js",
   "directories": {
     "src": "src"

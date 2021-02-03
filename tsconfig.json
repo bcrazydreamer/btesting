@@ -25,5 +25,5 @@
     "declarationMap": true,
     "sourceMap": true
   },
-  "exclude": ["**/.*/", "**/build", "**/node_modules"]
+  "exclude": ["**/.*/", "**/dist", "**/node_modules"]
 }

@@ -3,3 +3,4 @@ build/
 dist/
 .storybook
 *.log
+lerna publish --force-publish=@btesting/core --message "build: publish"
