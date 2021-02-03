@@ -4,6 +4,6 @@
   "version": "independent",
   "stream": true,
   "bootstrap": {
-    "npmClientArgs": ["--no-package-lock"]
+    "npmClientArgs": ["--no-package-lock", "--hoist"]
   }
 }

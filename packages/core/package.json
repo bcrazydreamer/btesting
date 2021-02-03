@@ -1,7 +1,7 @@
 {
-  "name": "@skuad/core",
+  "name": "@btesting/core",
   "version": "0.0.1",
-  "description": "Skuad core",
+  "description": "btesting core",
   "main": "build/index.cjs.js",
   "module": "build/index.esm.js",
   "src": "src/index.js",
