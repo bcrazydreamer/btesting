@@ -1,6 +1,6 @@
 {
   "name": "@btesting/core",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "btesting core",
   "main": "build/index.cjs.js",
   "module": "build/index.esm.js",
