@@ -21,7 +21,7 @@ const inputOptions = {
   external: [
     'react',
     'react-dom',
-    // 'visibilityjs',
+    'visibilityjs',
     'prop-types',
     '@material-ui',
     'react-is',
