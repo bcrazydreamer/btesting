@@ -1,6 +1,6 @@
 {
   "name": "@btesting/core",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "btesting core",
   "main": "dist/core.cjs.js",
   "module": "dist/core.esm.js",
