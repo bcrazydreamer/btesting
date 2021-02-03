@@ -17,6 +17,9 @@
     "btesting",
     "Design system"
   ],
+  "publicConfig": {
+    "access": "public"
+  },
   "author": "btesting Team",
   "license": "ISC",
   "dependencies": {
