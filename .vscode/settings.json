@@ -1,0 +1,7 @@
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "files.insertFinalNewline": false,
+  "files.trimFinalNewlines": false,
+  "editor.tabSize": 2
+}

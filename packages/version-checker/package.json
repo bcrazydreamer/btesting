@@ -1,0 +1,29 @@
+{
+  "name": "@skuad/version-checker",
+  "version": "0.0.1",
+  "description": "Skuad core",
+  "main": "build/index.cjs.js",
+  "module": "build/index.esm.js",
+  "src": "src/index.js",
+  "directories": {
+    "src": "src"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "node ../../scripts/build.js"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.4.4",
+    "visibilityjs": "^2.0.2"
+  },
+  "devDependencies": {
+    "react": "^17.0.1"
+  },
+  "peerDependencies": {
+    "@types/react": "^16.8.6 || ^17.0.0",
+    "react": "^16.8.0 || ^17.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0"
+  }
+}

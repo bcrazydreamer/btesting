@@ -1,0 +1,25 @@
+{
+  "name": "@skuad/core",
+  "version": "0.0.1",
+  "description": "Skuad core",
+  "main": "build/index.cjs.js",
+  "module": "build/index.esm.js",
+  "src": "src/index.js",
+  "directories": {
+    "src": "src"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "node ../../scripts/build.js"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.0"
+  },
+  "peerDependencies": {
+    "@types/react": "^16.8.6 || ^17.0.0",
+    "react": "^16.8.0 || ^17.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0"
+  }
+}
