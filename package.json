@@ -11,7 +11,8 @@
     "build-storybook": "build-storybook",
     "deploy": "npm run build-storybook",
     "prettier": "prettier --check '**/*.{scss,js,ts}'",
-    "prettier:write": "prettier --write '**/*.{scss,js,ts}'"
+    "prettier:write": "prettier --write '**/*.{scss,js,ts}'",
+    "publish-npm": "lerna publish --skip-npm && lerna run publish-npm"
   },
   "keywords": [
     "btesting",

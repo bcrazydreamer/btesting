@@ -12,7 +12,8 @@
     "access": "public"
   },
   "scripts": {
-    "build": "node ../../scripts/build.js"
+    "build": "node ../../scripts/build.js",
+    "publish-npm": "npm publish --access public"
   },
   "dependencies": {
     "@material-ui/core": "^4.11.0"
@@ -22,5 +23,5 @@
     "react": "^16.8.0 || ^17.0.0",
     "react-dom": "^16.8.0 || ^17.0.0"
   },
-  "gitHead": "85dc43784e3af1e91e6f2a1e8f1bfe5466b8a449"
+  "gitHead": "90696ec840d3c1252492c6830a6938037c91fe74"
 }
