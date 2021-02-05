@@ -5,22 +5,27 @@
   "main": "dist/core.cjs.js",
   "module": "dist/core.esm.js",
   "src": "src/index.js",
-  "directories": {
-    "src": "src"
-  },
+  "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "build": "node ../../scripts/build.js"
+    "build": "yarn build:stable && yarn build:common && yarn build:copy-utils",
+    "build:stable": "node ../../scripts/build stable",
+    "build:common": "node ../../scripts/build common",
+    "build:copy-utils": "node ../../scripts/copy-utils",
+    "prebuild": "rimraf build"
   },
   "dependencies": {
-    "@btesting/version-checker": "^0.1.0",
+    "@material-ui/style": "^4.11.0",
     "@material-ui/core": "^4.11.0"
   },
   "peerDependencies": {
     "@types/react": "^16.8.6 || ^17.0.0",
     "react": "^16.8.0 || ^17.0.0",
     "react-dom": "^16.8.0 || ^17.0.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-react-constant-elements": "^7.12.13"
   }
 }

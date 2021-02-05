@@ -5,14 +5,16 @@
   "main": "dist/version-checker.cjs.js",
   "module": "dist/version-checker.esm.js",
   "src": "src/index.js",
-  "directories": {
-    "src": "src"
-  },
+  "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "build": "node ../../scripts/build.js"
+    "build": "yarn build:stable && yarn build:common && yarn build:copy-utils",
+    "build:stable": "node ../../scripts/build stable",
+    "build:common": "node ../../scripts/build common",
+    "build:copy-utils": "node ../../scripts/copy-utils",
+    "prebuild": "rimraf build"
   },
   "dependencies": {
     "@babel/runtime": "^7.4.4",
