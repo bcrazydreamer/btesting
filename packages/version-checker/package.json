@@ -1,5 +1,5 @@
 {
-  "name": "@btesting/version-checker",
+  "name": "@bcrazydreamer/version-checker",
   "version": "0.1.0",
   "description": "btesting core",
   "main": "dist/version-checker.cjs.js",

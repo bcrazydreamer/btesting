@@ -1,5 +1,5 @@
 {
-  "name": "@btesting/core",
+  "name": "@bcrazydreamer/core",
   "version": "0.2.0-alpha.0",
   "description": "btesting core",
   "main": "dist/core.cjs.js",
